@@ -1,0 +1,40 @@
+body{background: url(Box_Special.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color:chartreuse;
+}
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .btn{
+            height: 100vh;
+            padding: 5rem 2rem;
+        display: flex;
+     align-items: center;
+     justify-content: left;
+     flex-direction: row; 
+     position: fixed;
+        }
+        button{
+            color: rgb(0, 0, 0);
+            background-color: rgb(226, 43, 43);
+            font-size: 2rem;
+        }
+        .pokemones{
+            color: rgb(60, 0, 255);
+            height: 110vh;
+        font-size: 2rem;
+    padding: 5rem 2rem;
+    border-radius: .5rem;
+    display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column; 
+        }
